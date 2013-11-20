@@ -1,0 +1,16 @@
+{
+    "name": "ha1t/php-simple-pagination",
+    "type": "library",
+    "description": "Simple Pagination Class for PHP",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "ha1t",
+        "email": "ha1t@example.com"
+      }
+    ],
+    "require": {
+      "php": ">=5.2.3"
+    }
+}
+
