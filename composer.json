@@ -2,7 +2,7 @@
     "name": "ha1t/php-simple-pagination",
     "type": "library",
     "homepage": "https://github.com/ha1t/php-simple-pagination",
-    "description": "minimal flock() wrapper class",
+    "description": "Simple Pagination Class for PHP",
     "license": "MIT",
     "authors": [
       {
