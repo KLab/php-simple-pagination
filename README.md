@@ -2,7 +2,7 @@
 
 # install
 
-> composer require ha1t/php-simple-pagination
+> composer require klab/php-simple-pagination
 
 # example
 
