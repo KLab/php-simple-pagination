@@ -1,5 +1,8 @@
-# php-simplepagination
+# php-simple-pagination
 
+# install
+
+> composer require ha1t/php-simple-pagination
 
 # example
 

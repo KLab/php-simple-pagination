@@ -1,10 +1,10 @@
 <?php
-require_once dirname(__DIR__).'/SimplePagination.php';
+require_once dirname(__DIR__).'/lib/SimplePagination/SimplePagination.php';
 
 class SimplePaginationTest extends PHPUnit_Framework_TestCase
 {
     public function test_construct()
-    {   
+    {
         $pagination = new SimplePagination(1, 10);
         $this->assertEquals(1, $pagination->current);
         $this->assertEquals(0, $pagination->prev);
@@ -18,7 +18,7 @@ class SimplePaginationTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(3, $pagination->next);
         $this->assertEquals(10, $pagination->count);
         $this->assertEquals(11, $pagination->start_index);
-    }   
+    }
 
     public function test_checkLastPage()
     {
