@@ -1,0 +1,20 @@
+{
+    "name": "ha1t/php-simple-pagination",
+    "type": "library",
+    "homepage": "https://github.com/ha1t/php-simple-pagination",
+    "description": "minimal flock() wrapper class",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "ha1t"
+      }
+    ],
+    "require": {
+      "php": ">=5.2.3"
+    },
+    "autoload": {
+      "psr-0": {
+        "LiteLock": "lib/SimplePagination"
+      }
+    }
+}
