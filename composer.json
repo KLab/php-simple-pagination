@@ -1,7 +1,7 @@
 {
-    "name": "ha1t/php-simple-pagination",
+    "name": "KLab/php-simple-pagination",
     "type": "library",
-    "homepage": "https://github.com/ha1t/php-simple-pagination",
+    "homepage": "https://github.com/KLab/php-simple-pagination",
     "description": "Simple Pagination Class for PHP",
     "license": "MIT",
     "authors": [
