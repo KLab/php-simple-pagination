@@ -1,3 +1,0 @@
-- name: OSKAR-phpstan
-  uses: OskarStark/phpstan-ga@0.11.16
-
