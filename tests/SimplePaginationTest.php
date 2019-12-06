@@ -1,7 +1,7 @@
 <?php
 require_once dirname(__DIR__).'/lib/SimplePagination/SimplePagination.php';
 
-class SimplePaginationTest extends PHPUnit_Framework_TestCase
+class SimplePaginationTest extends \PHPUnit\Framework\TestCase
 {
     public function test_construct()
     {
