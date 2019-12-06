@@ -10,7 +10,7 @@
       }
     ],
     "require": {
-      "php": ">=5.2.3"
+      "php": ">=7.1"
     },
     "autoload": {
       "classmap": ["lib/SimplePagination"]
