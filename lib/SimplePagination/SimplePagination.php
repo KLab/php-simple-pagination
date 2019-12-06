@@ -11,14 +11,25 @@
  */
 class SimplePagination
 {
+    /** @var int $current */
     public $current;        // 現在のページ番号
+
+    /** @var int $prev */
     public $prev;           // ひとつ前のページ番号
+
+    /** @var int $next */
     public $next;           // ひとつ次のページ番号
+
+    /** @var int $count */
     public $count;          // 1ページに何件表示するか
+
+    /** @var int $start_index */
     public $start_index;    // 何件目から表示するか（1オリジン）
+
+    /** @var bool $is_last_page */
     public $is_last_page;   // 最終ページかどうか
 
-    public function __construct($current, $count)
+    public function __construct(int $current, int $count)
     {
         $this->current = $current;
         $this->count = $count;
@@ -36,10 +47,10 @@ class SimplePagination
      *
      * 最終ページではなかったときは余分に取得したアイテムを破棄する。
      *
-     * @param array &$items 取得できたアイテムの数から最終ページかどうか判断する。
+     * @param string[] $items 取得できたアイテムの数から最終ページかどうか判断する。
      * @return void
      */
-    public function checkLastPage(array &$items)
+    public function checkLastPage(array &$items) : void
     {
         if (count($items) <= $this->count) {
             $this->is_last_page = true;
