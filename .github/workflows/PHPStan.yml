@@ -1,5 +1,5 @@
 on: [push, pull_request]
-name: Test
+name: PHPStan
 jobs:
   phpstan:
     name: PHPStan
